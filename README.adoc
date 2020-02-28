@@ -1,0 +1,6 @@
+= SmallRye documentation aggregator
+
+== Building the site
+----
+antora generate antora-playbook.yml
+----

@@ -1,0 +1,16 @@
+site:
+  title: SmallRye documentation
+# TODO: how can we have a general index that sits next to the playbook and not inside a component?
+  start_page: smallrye-metrics::index.adoc
+content:
+  sources:
+  - url: https://github.com/jmartisk/smallrye-metrics.git
+    branches: docs-test
+    start_path: doc
+  - url: https://github.com/jmartisk/smallrye-health.git
+    branches: docs-test
+    start_path: doc
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/master/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
